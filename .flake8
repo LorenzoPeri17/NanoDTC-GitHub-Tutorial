@@ -1,0 +1,7 @@
+[flake8]
+max-line-length = 160
+doctests = True
+extend-ignore = W291, E266, E203, W503, E302
+enable-extensions = W504
+count = True
+extend-exclude = ./NanoTutorial/

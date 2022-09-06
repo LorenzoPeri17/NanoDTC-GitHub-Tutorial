@@ -1,4 +1,4 @@
-name: Cohort can code
+name: Cohort cannot follow instructions
 
 on:
   - push
@@ -23,4 +23,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Test
-      run: pytest tests/test_structure.py
+      run: pytest tests/test_numbers.py

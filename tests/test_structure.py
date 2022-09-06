@@ -1,7 +1,10 @@
 import os
+import sys
 from glob import glob
 
 import pytest
+
+sys.path.append("src")
 
 all_messages = pytest.mark.parametrize("filename", glob("src/*message*.py"))
 

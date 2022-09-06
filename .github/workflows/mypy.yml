@@ -1,4 +1,4 @@
-name: Cohort likes ducks
+name: Cohort does not like ducks
 
 on:
   - push

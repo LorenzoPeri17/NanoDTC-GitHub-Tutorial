@@ -1,4 +1,4 @@
-name: Cohort cannot follow instructions
+name: Cohort can follow instructions
 
 on:
   - push

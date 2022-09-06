@@ -1,4 +1,4 @@
-name: Everyone ran the script
+name: Cohort can run code
 
 on:
   - push
